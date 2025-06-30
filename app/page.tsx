@@ -280,7 +280,7 @@ export default function ITResumeLanding() {
                   <div className="flex items-start gap-3">
                     <Award className="w-5 h-5 text-blue-400 mt-1" />
                     <div>
-                      <h4 className="font-semibold text-white print:text-black">Капитан сборной Республии Татарсан по роботехнике</h4>
+                      <h4 className="font-semibold text-white print:text-black">Капитан сборной Республики Татарстан по робототехнике</h4>
                       <p className="text-slate-400 text-sm print:text-gray-600">2022-2023, 2023-2024</p>
                     </div>
                   </div>
@@ -294,7 +294,7 @@ export default function ITResumeLanding() {
                   <div className="flex items-start gap-3">
                     <Star className="w-5 h-5 text-emerald-400 mt-1" />
                     <div>
-                      <h4 className="font-semibold text-white print:text-black">Сертификат Судьи III категории по спортивному программированю</h4>
+                      <h4 className="font-semibold text-white print:text-black">Сертификат судьи III категории по спортивному программированию</h4>
                       <p className="text-slate-400 text-sm print:text-gray-600">Министерство спорта Республики Татарстан, 2025</p>
                     </div>
                   </div>
@@ -315,7 +315,7 @@ export default function ITResumeLanding() {
               {
                 event: "Первенство России по программированию",
                 place: "1 место",
-                description: "Решения кейса с проблемой в области школьных буфетов и оптимизации их процессов",
+                description: "Решение кейса в области оптимизации процессов школьных буфетов",
                 color: "bg-gradient-to-br from-yellow-500 to-yellow-600",
               },
               {
