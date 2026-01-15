@@ -39,7 +39,7 @@ export default function ITResumeLanding() {
             <div className="flex flex-wrap gap-2 justify-center lg:justify-start mb-6">
               <Badge variant="secondary" className="bg-blue-600 hover:bg-blue-700 text-white print:bg-gray-200 print:text-black">
                 <User className="w-4 h-4 mr-1" />
-                19 лет
+                Full-Stack
               </Badge>
               <Badge variant="secondary" className="bg-emerald-600 hover:bg-emerald-700 text-white print:bg-gray-200 print:text-black">
                 <Briefcase className="w-4 h-4 mr-1" />
@@ -133,6 +133,14 @@ export default function ITResumeLanding() {
           </h2>
           <div className="space-y-6">
             {[
+                {
+                company: "GeoPager/GeoPixel",
+                position: "Middle Full-Stack Developer",
+                period: "сентябрь 2025 - настоящее время",
+                description:
+                  "Разработка модели машинного обучения для определения координат трекеров по уровню связи; Написание API и веб-приложения для отрисовки этих координат на локальной карте.",
+                color: "border-l-red-500",
+              },
               {
                 company: "440.dev",
                 position: "Middle+ Full-Stack Developer",
@@ -181,29 +189,29 @@ export default function ITResumeLanding() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
+                title: "ПО для трекинга сотдруников Я.Лавка",
+                description:
+                  "Разработка модели машинного обучения для определения координат трекеров по уровню связи; Написание API и веб-приложения для отрисовки этих координат на локальной карте",
+                tech: ["TenserFlow", "NestJS", "ReactJS", "Canvas API"],
+                color: "bg-gradient-to-br from-emerald-600 to-emerald-700",
+              },
+              {
                 title: "Электронный дневник для частной школы \"Ашкола\"",
                 description:
                   "Полнофункциональное веб-приложение электронный дневник для частной школы.",
                 tech: ["React", "Laravel", "PostgreSQL"],
-                color: "bg-gradient-to-br from-emerald-600 to-emerald-700",
+                color: "bg-gradient-to-br from-red-600 to-red-700",
               },
               {
                 title: "Криптокошелек SwissCrypto",
                 description: "Веб-приложение для криптокошелька.",
                 tech: ["Next.js", "TypeScript", "PostgreSQL"],
-                color: "bg-gradient-to-br from-red-600 to-red-700",
+                color: "bg-gradient-to-br from-cyan-600 to-cyan-700",,
               },
               {
                 title: "Telegram WebApp для школьных буфетов",
                 description: "Telegram WebApp для заказа и доставки еды из школьных буфетов.",
                 tech: ["React", "Telegram WebApp", "Aiogram"],
-                color: "bg-gradient-to-br from-cyan-600 to-cyan-700",
-              },
-              {
-                title: "Робот-баскетболист",
-                description:
-                  "Разработка робота-баскетболиста для соревнований по робототехнике в возможной дисциплине \"РобоБаскетбол\".",
-                tech: ["Arduino", "C++", "Jetson Nano", "Python"],
                 color: "bg-gradient-to-br from-amber-600 to-amber-700",
               },
             ].map((project, index) => (
