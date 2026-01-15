@@ -133,7 +133,7 @@ export default function ITResumeLanding() {
           </h2>
           <div className="space-y-6">
             {[
-                {
+              {
                 company: "GeoPager/GeoPixel",
                 position: "Middle Full-Stack Developer",
                 period: "сентябрь 2025 - настоящее время",
@@ -189,10 +189,10 @@ export default function ITResumeLanding() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                title: "ПО для трекинга сотдруников Я.Лавка",
+                title: "ПО для трекинга сотрудников Я.Лавка",
                 description:
                   "Разработка модели машинного обучения для определения координат трекеров по уровню связи; Написание API и веб-приложения для отрисовки этих координат на локальной карте",
-                tech: ["TenserFlow", "NestJS", "ReactJS", "Canvas API"],
+                tech: ["TensorFlow", "NestJS", "ReactJS", "Canvas API"],
                 color: "bg-gradient-to-br from-emerald-600 to-emerald-700",
               },
               {
@@ -206,7 +206,7 @@ export default function ITResumeLanding() {
                 title: "Криптокошелек SwissCrypto",
                 description: "Веб-приложение для криптокошелька.",
                 tech: ["Next.js", "TypeScript", "PostgreSQL"],
-                color: "bg-gradient-to-br from-cyan-600 to-cyan-700",,
+                color: "bg-gradient-to-br from-cyan-600 to-cyan-700",
               },
               {
                 title: "Telegram WebApp для школьных буфетов",
